@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="HairStylist">
+      <UniqueIdentifier>{968da709-1b1c-48b3-8a35-c88fb5c902b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HairStylist\Util">
+      <UniqueIdentifier>{acfdec7c-bcd2-405f-916e-ee0a134beded}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HairStylist\Input">
+      <UniqueIdentifier>{0b8bb6af-84b7-4ca9-ae96-b5b6869751f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HairStylist\Rendering">
+      <UniqueIdentifier>{7e2c1528-a263-4f24-9b8a-5b96f03ffb97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HairStylist\Rendering\Camera">
+      <UniqueIdentifier>{a373004a-2129-4c02-977c-46d0fdb57c76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HairStylist\Rendering\Mesh">
+      <UniqueIdentifier>{4f0d5cba-8851-4bdf-885a-402e94a186a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HairStylist\Geometry">
+      <UniqueIdentifier>{3c7b3ad6-7dfa-4690-a9b1-e5998c4214be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HairStylist\Shaders">
+      <UniqueIdentifier>{6a665a42-2cdc-4311-a9ab-8f9c819358a0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Window.cpp">
+      <Filter>HairStylist\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>HairStylist</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger.cpp">
+      <Filter>HairStylist\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>HairStylist\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="file.cpp">
+      <Filter>HairStylist\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>HairStylist\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>HairStylist\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>HairStylist</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>HairStylist\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>HairStylist\Rendering\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="math.cpp">
+      <Filter>HairStylist\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>HairStylist\Rendering\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="convert.cpp">
+      <Filter>HairStylist\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Rect.cpp">
+      <Filter>HairStylist\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Framebuffer.cpp">
+      <Filter>HairStylist\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="HairstyleManager.cpp">
+      <Filter>HairStylist</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Window.h">
+      <Filter>HairStylist\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger.h">
+      <Filter>HairStylist\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>HairStylist\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="file.h">
+      <Filter>HairStylist\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>HairStylist\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>HairStylist\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h">
+      <Filter>HairStylist</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>HairStylist\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>HairStylist\Rendering\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="math.h">
+      <Filter>HairStylist\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>HairStylist\Rendering\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="convert.h">
+      <Filter>HairStylist\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Rect.h">
+      <Filter>HairStylist\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Framebuffer.h">
+      <Filter>HairStylist\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="HairstyleManager.h">
+      <Filter>HairStylist</Filter>
+    </ClInclude>
+    <ClInclude Include="Hairstyle.h">
+      <Filter>HairStylist</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Shaders\hair.frag">
+      <Filter>HairStylist\Shaders</Filter>
+    </None>
+    <None Include="Assets\Shaders\hair.geom">
+      <Filter>HairStylist\Shaders</Filter>
+    </None>
+    <None Include="Assets\Shaders\hair.vert">
+      <Filter>HairStylist\Shaders</Filter>
+    </None>
+    <None Include="Assets\Shaders\painterOverlay.frag">
+      <Filter>HairStylist\Shaders</Filter>
+    </None>
+    <None Include="Assets\Shaders\painterOverlay.vert">
+      <Filter>HairStylist\Shaders</Filter>
+    </None>
+    <None Include="Assets\Shaders\quad.frag">
+      <Filter>HairStylist\Shaders</Filter>
+    </None>
+    <None Include="Assets\Shaders\quad.vert">
+      <Filter>HairStylist\Shaders</Filter>
+    </None>
+    <None Include="Assets\Shaders\model.frag">
+      <Filter>HairStylist\Shaders</Filter>
+    </None>
+    <None Include="Assets\Shaders\model.vert">
+      <Filter>HairStylist\Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -234,3 +234,13 @@ _Pvt_Extensions
 
 # FAKE - F# Make
 .fake/
+
+# Custom Exceptions
+!ThirdParty/SOIL2/lib/x86/
+!ThirdParty/SOIL2/lib/x64/
+!ThirdParty/SDL2-2.0.4/lib/x86/
+!ThirdParty/SDL2-2.0.4/lib/x64/
+!ThirdParty/glew-1.13.0/lib/Release/
+!ThirdParty/glew-1.13.0/lib/Release/
+!ThirdParty/glew-1.13.0/lib/Release/Win32/
+!ThirdParty/glew-1.13.0/lib/Release/x64/

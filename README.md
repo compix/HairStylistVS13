@@ -1,1 +1,1 @@
-# HairStylistVS13
+# HairStylist
